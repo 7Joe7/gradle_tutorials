@@ -1,0 +1,7 @@
+apply plugin: 'java'
+archivesBaseName = "quote"
+version = '1.0-FINAL'
+
+repositories {
+  mavenCentral()
+}

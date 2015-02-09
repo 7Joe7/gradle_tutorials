@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+archivesBaseName = "quoteapp"
+version = '1.0-FINAL'
+
+//sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    testCompile 'junit:junit:4.11'
+}
